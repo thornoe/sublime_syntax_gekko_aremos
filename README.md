@@ -1,6 +1,8 @@
 # Gekko and Aremos package for Sublime Text
 Package for syntax highligting in [Sublime Text 3.0](https://www.sublimetext.com/3) for AREMOS and [Gekko Timeseries And Modeling Software](https://github.com/thomsen67/GekkoTimeseries).
 
+## Getting started
+
 ### 1. Manual installation
 In Sublime go to ` Preferences -> Browse Packages... `. Either download and unzip this package into that directory, or
 
