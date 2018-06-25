@@ -20,7 +20,7 @@ C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages\User\
 ### 3. Switch themes
 Go to ` Preferences -> Color Scheme... ` and choose ` Monokai_Gekko_Aremos `.
 
-## Acknowledgement
+## Acknowledgements
 This package builds on Martin Bonde's package for syntax highlighting and remote build in Sublime for Gekko:
 https://github.com/MartinBonde/gekko_sublime
 
