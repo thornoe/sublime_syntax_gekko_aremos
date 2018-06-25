@@ -1,0 +1,57 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+
+---
+name: Gekko
+scopeName: source.gekko
+fileTypes: [gcm]
+uuid: 5da02451-1da1-449b-93c5-fd95759f6265
+
+patterns:
+- include: '#commands0'
+- include: '#commands1'
+- include: '#linecomment'
+- include: '#singlequotestring'
+- include: '#number'
+- include: '#math'
+- include: '#operator'
+
+repository:
+  commands0:
+    match: (?<!\.)\b((?i)READ|WRITE|EXPORT|OPEN|CLOSE|CLONE|DOWNLOAD|COPY|RENAME|INDEX|COUNT|COMPARE|FINDMISSINGDATA|UNSWAP|HDG|SHEET|TIME|OPTION|CLEAR|RETURN|STRING|x12a|freq|RESTART|MODE|SERIES|END)\b
+    name: keyword.commands0.gekko
+
+  commands1:
+    match: (?<!\.)\b((?i)FILE|IMPORT|TIMEFILTER|CREATE|DELETE|COLLAPSE|SMOOTH|SPLICE|TRUNCATE|ANALYZE|DOC|LIST|DATE|NAME|VAL|MATRIX|MEM|PRT|MULPRT|DISP|PLOT|CLIP|DECOMP|TELL|SHOW|MODEL|SIM|ENDO|EXO|UNFIX|CHECKOFF|ITERSHOW|SIGN|RUN|PIPE|INI|FUNCTION|RESET|CLS|FOR|IF|STOP|EXIT|ACCEPT|PAUSE|GOTO|TARGET|TABLE|MENU|OLS|R|R_FILE|R_EXPORT|R_RUN|HELP|EDIT|SYS|param|cell|dates|attend|cols|rows|names|colors)\b
+    name: keyword.commands1.gekko
+
+  linecomment:
+    name: comment.line.gekko
+    match: (//).*\n?
+
+  singlequotestring:
+    name: string.quoted.single.gms
+    begin: ''''
+    beginCaptures:
+      '0': {name: punctuation.definition.string.begin.gms}
+    end: ''''
+    endCaptures:
+      '0': {name: punctuation.definition.string.end.gms}
+    patterns:
+    - match: '%(\w+%|\d+)'
+      name: entity.name.class.gms
+
+  math:
+    name: keyword.operator.gms
+    match: (?i)\b(ABS|ARCCOS|ARCSIN|ARCTAN|ARCTAN2|BETA|BETAREG|BINOMIAL|BOOL_(AND|EQV|IMP|NOT|OR|XOR)|CEIL|CENTROPY|COS|COSH|CVPOWER|DIV|DIV0|EDIST|ENTROPY|ERRORF|EXECSEED|EXP|FACT|FLOOR|FRAC|GAMMA|GAMMAREG|IFTHEN|LOG|LOG2|LOG10|LOGBETA|LOGGAMMA|MAPVAL|MAX|MIN|MOD|NCP(CM|F|VUPOW|VUSIN)|NORMAL|PI|POLY|POWER|RANDBINOMIAL|RANDLINEAR|RANDTRIANGLE|ROUND|RPOWER|SIGMOID|SIGN|SIGNPOWER|SIN|SINH|SL(EXP|LOG10|REC)|SQ(EXP|LOG10|R|REC|RT)|TANH?|TRUNC|UNIFORM|UNIFORMINT|VCPOWER)\b
+
+  number:
+    name: constant.numeric.gms
+    match: (?<![\d.])\b\d+(\.\d+)?([eE]-?\d+)?|\.\d+([eE]-?\d+)?
+
+  operator:
+    name: keyword.operator.gams
+    match: (\b(and|or|not)\b)|(\+|-|%|#|\*|\/|\*\*|=|<=?|>=?)
+
+
+...
+
