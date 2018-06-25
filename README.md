@@ -1,5 +1,5 @@
 # [Gekko and Aremos syntax for Sublime Text](https://github.com/thornoe/sublime_syntax_gekko_aremos)
-Package for syntax highligting of code in [Sublime Text 3](https://www.sublimetext.com/3) for AREMOS and [Gekko Timeseries And Modeling Software](https://github.com/thomsen67/GekkoTimeseries).
+Package for syntax highligting of code in [Sublime Text 3](https://www.sublimetext.com) for AREMOS and [Gekko Timeseries And Modeling Software](https://github.com/thomsen67/GekkoTimeseries).
 
 ## Getting started
 
