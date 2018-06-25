@@ -1,12 +1,10 @@
 # Gekko and Aremos package for Sublime Text
-Package for syntax highligting in Sublime Text 3.0 for AREMOS and Gekko Timeseries And Modeling Software.
+Package for syntax highligting in [Sublime Text 3.0](https://www.sublimetext.com/3) for AREMOS and [Gekko Timeseries And Modeling Software](https://github.com/thomsen67/GekkoTimeseries).
 
 ### 1. Manual installation
-Go to ` Preferences -> Browse Packages... `
+Go to ` Preferences -> Browse Packages... `. Either download and unzip this package into that directory, or
 
-Either download and unzip this package into that directory
-
-Or``` bash
+``` bash
 git clone https://github.com/thornoe/sublime_syntax_gekko_aremos "sublime-syntax-gekko-aremos"
 ```
 
@@ -19,9 +17,6 @@ C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages\User\
 
 ### 3. Switch themes
 Go to ` Preferences -> Color Scheme ` and choose ` Monokai_Gekko_Aremos `.
-
-## Gekko info
-GitHub repository: https://github.com/thomsen67/GekkoTimeseries
 
 ## Acknowledgement
 This package builds on Martin Bonde's package for syntax highlighting and remote build in Sublime for Gekko:
