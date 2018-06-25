@@ -4,7 +4,7 @@ Package for syntax highligting in [Sublime Text 3.0](https://www.sublimetext.com
 ## Getting started
 
 ### 1. Manual installation
-In Sublime go to ` Preferences -> Browse Packages... `. Either download and unzip this package into that directory, or
+In Sublime go to ` Preferences -> Browse Packages... ` and either download and unzip this package into that directory, or
 
 ``` bash
 git clone https://github.com/thornoe/sublime_syntax_gekko_aremos "sublime-syntax-gekko-aremos"
