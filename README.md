@@ -7,7 +7,7 @@ Package for syntax highligting of code in [Sublime Text 3](https://www.sublimete
 In Sublime go to ` Preferences -> Browse Packages... ` and either download and unzip this package into that directory, or use
 
 ``` bash
-git clone https://github.com/thornoe/sublime_syntax_gekko_aremos "sublime-syntax-gekko-aremos"
+git clone https://github.com/ThorNoe/sublime_syntax_gekko_aremos "sublime-syntax-gekko-aremos"
 ```
 
 ### 2. Set syntax as default
