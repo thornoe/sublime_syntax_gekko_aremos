@@ -11,7 +11,7 @@ git clone https://github.com/thornoe/sublime_syntax_gekko_aremos "sublime-syntax
 ```
 
 ### 2. Set syntax as default
-Then move the two files ` aremos.sublime-settings ` and ` gekko.sublime-settings ` to the root of the User folder:
+Then move the two files ` aremos.sublime-settings ` and ` gekko.sublime-settings ` to the root of the User folder, e.g.
 
 ``` bash
 C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages\User\
